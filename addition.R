@@ -5,6 +5,6 @@ fun.add <- function(x,y){
   return(z)
 }
 
-print(paste("Sum",fun.add(2,5)))
+print(paste("Sum of the two numbers is ",fun.add(2,5)))
 
 
