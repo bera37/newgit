@@ -3,7 +3,7 @@
 fun.AddandSub <- function(x,y){
   z <- x+y
   z1 <- x - y
-  y2 <- y^2
+  y2 <- y^2 + 5
   return(c(z,z1)
 }
 
