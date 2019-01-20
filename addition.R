@@ -1,10 +1,11 @@
 # sum 2 numbers #
 
-fun.add <- function(x,y){
+fun.AddandSub <- function(x,y){
   z <- x+y
-  return(z)
+  z1 <- x - y
+  return(c(z,z1)
 }
 
-print(paste("Sum of the two numbers is ",fun.add(2,5)))
+print(paste("results of the two numbers are ",fun.add(2,5)))
 
 
